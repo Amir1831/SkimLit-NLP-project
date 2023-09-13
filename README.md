@@ -24,6 +24,9 @@ For model 2 we use `Transfer Learning` to embedd our Tokens and on the top of th
 
 ### Model_3 : Conv1D with character embedding
 For model 3 , we use same architecture as model 1but instead of Token level embedding we use `Character Level embedding` .
+***
+> **From Model_4 to Model_7 we use several `Inputs`**
+***
 
 ### Model_4 : Combining pretrained token embeddings + characters embeddings (hybrid)
 For model_4 we go through these steps:
