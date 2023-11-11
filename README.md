@@ -36,6 +36,11 @@ For model_4 we go through these steps:
 4. Build a series of output layers on top of 3 similar to Figure 1 and section 4.2 of Paper
 5. Construct a model which takes tokens and chareacter-level sequences as inputs and produces sequence label probaabilities as output
 
+
+
+   ![image](https://github.com/Amir1831/SkimLit-NLP-project/assets/75390652/74f95935-3f79-49e9-9585-7fa047b4a1f8)
+
+
 ### Model_5 : Pretrained token embeddings + character embedding + positional embedding
 For model_5 , we use same architecture as model 4 and we add positional embedding to our model
 ### Model_6 : Using `SGD optmizer`
@@ -58,4 +63,9 @@ This is the final results :
 |Model_6|Pretrained_Token + Characters + Positional_Embed_with_SGD	0.525288|	0.404653|	0.525288|	0.446659|
 |**Model_7**|**Pretrained_Token + Characters + Positional_Embed_with_Label_Smothing**|	**0.848504**|	**0.847811**|	**0.848504**|	**0.848004**|
 ***
-Thanks to `Daniel brouke` and `ZeroToMastery`!
+### Evaluate DataFrame
+![image](https://github.com/Amir1831/SkimLit-NLP-project/assets/75390652/e12ab658-4293-4940-9b0f-d60bdf8fef50)
+
+### Final Results 
+![image](https://github.com/Amir1831/SkimLit-NLP-project/assets/75390652/ca6560d6-c215-4142-b41f-c7b47c3c0584)
+
